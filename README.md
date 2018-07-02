@@ -3,6 +3,7 @@ Simple Python Based HTTP Server
 
 - Main goal is to create a simple Python3 based HTTP Server
 - Second goal is to package the code in a way that will ease the installation in a container image
+- Third goal: Integrate with Travis-CI
 
 ## Check python3 version
 
