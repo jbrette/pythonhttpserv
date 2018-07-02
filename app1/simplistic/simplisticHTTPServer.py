@@ -23,11 +23,6 @@ class simplisticHTTPServer_RequestHandler(BaseHTTPRequestHandler):
         self.wfile.write(bytes(message, "utf8"))
         return
 
-    def do_GET(self):
-        # Send headers
-        self._set_headers()
-        self.wfile.write("<html><body><h1>hi!</h1></body></html>")
-
     def do_HEAD(self):
         # Send headers
         self._set_headers()
